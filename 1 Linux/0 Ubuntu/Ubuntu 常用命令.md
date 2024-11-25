@@ -1,32 +1,34 @@
 # Ubuntu 常用命令
 
-1. 文件复制：`cp [paramter] [source sddress] [destination sddress]`
+### 1. 文件复制：`cp`
 
-   `paramter:`
+`cp [paramter] [source sddress] [destination sddress]`
 
-   ​	`-a` ：
+`paramter:`
 
-   ​	`-d`：在复制有符号连接的文件时，保留原始的连接
+​	`-a` ：
 
-   ​	`-f`：强行复制文件，不管要复制的文件是否已经存在于目标目录
+​	`-d`：在复制有符号连接的文件时，保留原始的连接
 
-   ​	`-I`：覆盖现有文件之前询问用户
+​	`-f`：强行复制文件，不管要复制的文件是否已经存在于目标目录
 
-   ​	`-p`：保留源文件或者目录的属性
+​	`-I`：覆盖现有文件之前询问用户
 
-   ​	`-r/-R`：递归处理，将指定目录下的文件及子目录一并处理
+​	`-p`：保留源文件或者目录的属性
 
-2. 文件移动：`mv [paramter] [source sddress] [destination sddress]`
+​	`-r/-R`：递归处理，将指定目录下的文件及子目录一并处理
 
-   `paramter:`
+文件移动：`mv [paramter] [source sddress] [destination sddress]`
 
-   ​	`-f`：若目标文件或目录与现在的文件重复，直接覆盖目的文件或目录
+`paramter:`
 
-   ​	`-I`：覆盖现有文件之前询问用户
+​	`-f`：若目标文件或目录与现在的文件重复，直接覆盖目的文件或目录
 
-   ​	`-b`：如果要覆盖文件的话覆盖前先进行备份
+​	`-I`：覆盖现有文件之前询问用户
 
-3. 文件解压缩：
+​	`-b`：如果要覆盖文件的话覆盖前先进行备份
+
+1. 文件解压缩：
    1. `zip`：
       1. 压缩文件：`zip [parameter] [compressed-file.zip] [compressed file]`
 
@@ -114,7 +116,7 @@
 
       ​	`-Z`: 用 tar 生成压缩文件，用 compress 压缩
 
-4. 文件查询和搜索
+2. 文件查询和搜索
    1. 在目录结构中查找文件：`find [path] [parameter] [key word]`
 
       `parameter`
